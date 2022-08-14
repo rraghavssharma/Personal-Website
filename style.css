@@ -43,8 +43,8 @@ body{
 }
 .header p{
     text-align: left;
-    font-size: 21px;
-    width: 65vh;
+    font-size: 3vh;
+    width: 65%;
     margin: auto;
     color: #ddd;
     line-height: 1.7;
