@@ -1,0 +1,77 @@
+*{
+    margin:0;
+    padding:0;
+}
+body{
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+}
+.header{
+    z-index:1;
+    background: linear-gradient(-45deg, rgba(205, 5, 155, 0.518), rgb(129, 15, 195), rgb(37, 131, 168), rgb(9, 186, 77));
+    background-size: 400% 400%;
+    width: 100%;
+    height: 100vh;
+    animation: animate 15s ease infinite;
+}
+.header ul{
+    height: 50px;
+    display: flex;
+    justify-content: center;
+}
+.header ul li{
+    display: inline-block;
+    padding: 40px 15px;
+}
+.header ul li a{
+    text-decoration: none;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 20px;
+    padding: 5px 10px;
+}
+.header ul li a:hover{
+    background: #fff;
+    color: #000;
+}
+.header h1{
+    text-align: center;
+    color: #fff;
+    font-size: 60px;
+    margin-top: 0%;
+    margin-bottom: 20px;
+}
+.header p{
+    text-align: left;
+    font-size: 21px;
+    width: 65vh;
+    margin: auto;
+    color: #ddd;
+    line-height: 1.7;
+}
+@keyframes animate{
+    0%{
+        background-position: 0 50%;
+    }
+    50%{
+        background-position: 100% 50%;
+    }
+    100%{
+        background-position: 0 50%
+    }
+ 
+}
+#pdf{
+    background-color: black;
+    width:0%;
+    height:0%;
+    display: none;
+}
+#mylogo{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 5vh;
+  margin-bottom: 1vh;
+}
+
