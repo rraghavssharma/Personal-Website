@@ -7,27 +7,43 @@
     <title>Raghav Sharma</title>
     <!-- add icon link -->
     <link rel = "icon" href ="favicon1.png" type = "image/x-icon">
-
-    <link rel="stylesheet" href="style.css">
     
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/skeleton/2.0.4/skeleton.css" integrity="sha512-5fsy+3xG8N/1PV5MIJz9ZsWpkltijBI48gBzQ/Z2eVATePGHOkMIn+xTDHIfTZFVb9GMpflF2wOWItqxAP2oLQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+
+     
 </head>
 <body>
-    <div class="header">
-        <ul>
-            <li><a id="myResume" href="rraghavssharmaresume.pdf" target="_blank">Resume</a></li>
-            <li><a href="https://www.linkedin.com/in/raghav-sharma-006896237/" target="_blank">Linkedin</a></li>
-            <li><a href="https://github.com/rraghavssharma" target="_blank">Github</a></li>
-            <li><a id="copyText">copy email</a></li>
-        </ul>
-        <img id="mylogo" src="favicon1.png">
-        <h1>Raghav Sharma</h1>
-     <p>Hello, I am a second year Computer Engineering Student at the University of Alberta. I am interested in Manufacturing/factory Automation and Autonomous vehicles for both civilian and military purposes.</p>
-   </div>
-   <div id="pdf">
-    <embed src="rraghavssharmaresume.pdf" type="application/pdf">
-   </div>
+    <div class="container">
+        
+        <div class="row nav"><!--navigation bar-->
+             <ul class="u-pull-left"><!--left side of nav bar-->
+                <li><a id="copyText">copy email</a></li>
+             </ul>
+             <ul class="u-pull-right"><!--right side of nav bar-->
+                <!--hyperlinks-->
+                <li><a id="myResume" href="rraghavssharmaresume.pdf" target="_blank">Resume</a></li>
+                <li><a href="https://www.linkedin.com/in/raghav-sharma-006896237/" target="_blank">Linkedin</a></li>
+                <li><a href="https://github.com/rraghavssharma" target="_blank">Github</a></li>
+             </ul>
+             <div class="u-cf">
+                <!--Clears float, so that other items are not effected by float-->
+             </div> 
+        </div>
 
- <script src="main.js"></script>
+        <div class="row body">
+            <div class="one-half column left">
+                <h1>Raghav Sharma</h1>
+                <p class="myText">Hello, I am a second year Computer Engineering Student at the University of Alberta. 
+                   I am interested in Manufacturing/factory Automation and Autonomous vehicles for both 
+                   civilian and military purposes.</p>
+            </div>
+            <div class="one-half column right">
+                <img id="mylogo" src="favicon1.png">
+            </div>
+
+        </div>
+    </div>
+    <script src="main.js"></script>
 </body>
-
 </html>
