@@ -46,6 +46,9 @@ li {
 .row body{
     padding-top: 5rem;
 }
+h1{
+    font-weight: bold;
+}
 .myText{
     font-size: 3vh;
     line-height: 1.7;
@@ -80,9 +83,22 @@ li {
     padding-top:1rem;
 }
 li{
+    margin-left: 0.75rem;
     letter-spacing: 0.5px;
 }
+.u-pull-left{
+    margin: 0;
+    padding: 0;
+}
+.u-pull-right{
+    margin: 0;
+    padding: 0;
+}
+
 h1{
     font-size: 27px;
+}
+.myText{
+    font-size: 18px;
 }
 }
